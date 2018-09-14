@@ -1,0 +1,10 @@
+name 'themis-finals-checker'
+description 'Installs and configures Themis Finals checker'
+version '1.0.0'
+
+recipe 'themis-finals-checker', 'Installs and configures Themis Finals checker'
+depends 'nginx'
+depends 'instance', '~> 2.0.0'
+depends 'secret', '~> 1.0.0'
+depends 'localdns', '~> 1.3.1'
+depends 'docker', '~> 4.6.5'
